@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36" version="29.6.1">
+  <diagram id="actors-usecases" name="Actors and Use Cases">
+    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="750" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;whiteSpace=wrap;" value="Bristol 20mph Zone Finder - Actors and Use Cases" vertex="1">
+          <mxGeometry height="45" width="800" x="150" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="actor" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=15;" value="User" vertex="1">
+          <mxGeometry height="110" width="60" x="90" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingTop=10;spacingLeft=12;fontSize=16;fontStyle=1;fillColor=none;strokeColor=#666666;" value="Bristol 20mph Zone Finder" vertex="1">
+          <mxGeometry height="470" width="700" x="280" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="View all zones" vertex="1">
+          <mxGeometry height="70" width="300" x="480" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="View zone details" vertex="1">
+          <mxGeometry height="70" width="300" x="480" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="View zone boundaries&lt;br&gt;&lt;i&gt;(if geographic data is available)&lt;/i&gt;" vertex="1">
+          <mxGeometry height="80" width="300" x="480" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="uc4" parent="1" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="See data-load error message" vertex="1">
+          <mxGeometry height="70" width="300" x="480" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="link1" edge="1" parent="1" source="actor" style="edgeStyle=none;html=1;rounded=0;startArrow=none;endArrow=none;strokeWidth=1.5;strokeColor=#666666;" target="uc1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link2" edge="1" parent="1" source="actor" style="edgeStyle=none;html=1;rounded=0;startArrow=none;endArrow=none;strokeWidth=1.5;strokeColor=#666666;" target="uc2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link3" edge="1" parent="1" source="actor" style="edgeStyle=none;html=1;rounded=0;startArrow=none;endArrow=none;strokeWidth=1.5;strokeColor=#666666;" target="uc3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="link4" edge="1" parent="1" source="actor" style="edgeStyle=none;html=1;rounded=0;startArrow=none;endArrow=none;strokeWidth=1.5;strokeColor=#666666;" target="uc4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
